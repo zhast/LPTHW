@@ -17,7 +17,11 @@ while(col != '0'):
     except: 
         second = 0
 
-    print(f"Column index: {first + second}")
+    if(second == 0):
+        print(f"Column index: {first}")
+    else:
+        print(f"Column index: {(first * 26) + second}")
+
 
     col = input("Enter Column Letter: ")
 
