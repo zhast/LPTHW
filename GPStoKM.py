@@ -18,7 +18,7 @@ lat2 = radians(float(input("Enter second latitude: ")))
 lon2 = radians(float(input("Enter second longitude: ")))
 
 
-# Test coordinates
+# Test coordinates (comment out input lines before using)
 # lat1 = radians(52.2296756)
 # lon1 = radians(21.0122287)
 # lat2 = radians(52.406374)
