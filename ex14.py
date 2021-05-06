@@ -6,6 +6,9 @@ prompt = '---> '
 print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")
 print(f"Do you like me {user_name}?")
+
+# Use the input(prompt) function assign a variable from command line
+# and output a prompt at the same time
 likes = input(prompt)
 
 print(f"Where do you live {user_name}?")

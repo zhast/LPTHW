@@ -16,6 +16,7 @@ def rewind(f):
 def print_a_line(line_count, f):
     print(line_count, f.readline(), end='')
 
+# Temporarily rename the command "open(input_file, 'r')" to "current_file"
 with open(input_file, 'r') as current_file:
 
     print("First let's print the whole file:\n")

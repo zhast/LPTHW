@@ -1,3 +1,4 @@
+# The ending character can be overwritten using end='char' in the print function
 print("How old are you?", end=' ')
 age = input()
 
